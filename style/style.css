@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header_list{
+    display: flex;
+}
+
+.header_link{
+    padding: 30px 15px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    display: block;
+    line-height: 19px;
+    font-size: 16px;
+    color: #000;
+}
+
+.header_link:hover{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+
+.header_input{
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px 0px 0px 10px;
+    padding: 8px 12px;
+}
+
+.header_input::placeholder{
+    color: #000;
+}
+
+form{
+    display: flex;
+}
+
+.header_btn{
+    background: #000;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    padding: 8px 16px;
+}
+
+.header_content{
+    background: url(../images/3.png) no-repeat center/cover;
+    width: 1440px;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.word{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 59px;
+    font-weight: 600;
+    margin-top: 20.29px;
+}
+
+.word1{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.animation{
+    display: flex;
+}
+
+.Sneakers{
+    background: #181D28;
+    width: 360px;
+    height: 200px;
+}
+
+.Sneakers:hover{
+    background: #6B4B6B;;
+}
+
+.photo{
+    margin-top: 20px;
+    margin-left: 122px;
+}
+
+.photo1{
+    margin-top: 20px;
+    margin-left: 135px;
+}
+
+.photo2{
+    margin-top: 20px;
+    margin-left: 132px;
+}
+
+.photo3{
+    margin-top: 20px;
+    margin-left: 123px;
+}
+
+.world{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-left: 138px;
+}
+
+.world1{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-left: 150px;
+}
+
+.world2{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-left: 145px;
+}
+
+.world3{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-left: 136px;
+}
+
+.adidas{
+    font-weight: 600;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #000;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 40px;
+}
+
+.with_women{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #000;
+    text-align: center;
+    line-height: 17.78px;
+    margin-top: 20px;
+}
+
+.text1{
+    font-family: sans-serif;
+    max-width: 1110px;
+    width: 100%;
+    line-height: 18px;
+    font-size: 15px;
+    color: #000;
+    margin: 0 auto;
+}
+
+.text1:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+.text1:nth-of-type(2) {
+    margin-top: 18px;
+}
+
+.image{
+    margin-top: 40px;
+}
+
+.categories_content{
+    padding-bottom: 40px;
+}
+
+.categories_title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.categories_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    row-gap: 14px;
+}
+
+.categories_item{
+    width: 20%;
+}
+
+.categories_link{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer {
+    background: #181D28;
+    padding: 35px;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logo>img {
+    width: 98px;
+}
+
+.footer_list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer_link {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
